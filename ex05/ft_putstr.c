@@ -6,24 +6,20 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 17:26:09 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/14 17:35:02 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/19 16:35:59 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_putsr(char *str)
+void	ft_putsr(char *str)
 {
-    int i;
-    i = 0;
-    while(str[i])
-    {
-        write(1,&str,6);
-        i++;
-    }
-}
+	int	i;
 
-int main()
-{
-    ft_putsr("salut");
+	i = 0;
+	while (str[i])
+	{
+		write (1, &str[i], 1);
+		i++;
+	}
 }

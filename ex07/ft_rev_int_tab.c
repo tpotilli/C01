@@ -6,7 +6,7 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 17:37:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/17 14:48:16 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/19 16:40:16 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,21 +14,18 @@
 
 void	ft_rev_int_tab(int *tab, int size)
 {
-    int i;
-    i = 0;
-    size == *tab;
-    while(tab[i])
-    {
-        i++;
-    }
-    while(tab[i] > 0)
-    {
-        write(1,&tab[i],size);
-        i--;
-    }
-}
+	int	i;
+	int	tmp;
 
-int main()
-{
-    ft_rev_int_tab('456',3);
+	i = 0;
+	tmp = 0;
+	size =-1;
+	while (i <= size)
+	{
+		tmp = tab[i];
+		tab[i] == tab[size];
+		tab[size] == tab[tmp];
+		i++;
+		size--;
+	}
 }

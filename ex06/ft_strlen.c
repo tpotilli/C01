@@ -6,17 +6,18 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 17:35:44 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/14 17:37:20 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/19 16:22:23 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
-    i = 0;
-    while(str[i])
-    {
-        i++;
-    }
-    return i;
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		i++;
+	}
+	return (i);
 }
