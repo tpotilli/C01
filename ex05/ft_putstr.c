@@ -6,13 +6,13 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 17:26:09 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/19 16:35:59 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/20 09:32:19 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putsr(char *str)
+void	ft_putstr(char *str)
 {
 	int	i;
 

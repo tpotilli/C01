@@ -6,11 +6,9 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 17:24:17 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/19 14:32:14 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/20 07:19:10 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {

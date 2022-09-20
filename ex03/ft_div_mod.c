@@ -6,11 +6,9 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 17:21:30 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/19 16:25:33 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/20 07:18:59 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {

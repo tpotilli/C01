@@ -6,11 +6,9 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 17:18:25 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/19 14:08:47 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/20 07:18:47 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_swap(int *a, int *b)
 {

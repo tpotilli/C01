@@ -6,11 +6,9 @@
 /*   By: tpotilli <tpotilli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 17:37:41 by tpotilli          #+#    #+#             */
-/*   Updated: 2022/09/19 16:40:16 by tpotilli         ###   ########.fr       */
+/*   Updated: 2022/09/20 07:19:43 by tpotilli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_rev_int_tab(int *tab, int size)
 {
@@ -19,7 +17,7 @@ void	ft_rev_int_tab(int *tab, int size)
 
 	i = 0;
 	tmp = 0;
-	size =-1;
+	size = (-1);
 	while (i <= size)
 	{
 		tmp = tab[i];
